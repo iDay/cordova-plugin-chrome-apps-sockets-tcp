@@ -6,8 +6,6 @@
 #import <Cordova/CDVPlugin.h>
 #import "GCDAsyncSocket.h"
 
-@class GCDAsyncSocket;
-
 @interface ChromeSocketsTcp : CDVPlugin
 
 - (NSUInteger)registerAcceptedSocket:(GCDAsyncSocket*)theSocket;
