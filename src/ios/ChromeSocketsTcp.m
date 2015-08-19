@@ -3,7 +3,6 @@
 // found in the LICENSE file.
 
 #import "ChromeSocketsTcp.h"
-#import "GCDAsyncSocket.h"
 
 #ifndef CHROME_SOCKETS_TCP_VERBOSE_LOGGING
 #define CHROME_SOCKETS_TCP_VERBOSE_LOGGING 0

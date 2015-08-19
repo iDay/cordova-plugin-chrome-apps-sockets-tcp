@@ -4,6 +4,7 @@
 
 #import <Foundation/Foundation.h>
 #import <Cordova/CDVPlugin.h>
+#import "GCDAsyncSocket.h"
 
 @class GCDAsyncSocket;
 
