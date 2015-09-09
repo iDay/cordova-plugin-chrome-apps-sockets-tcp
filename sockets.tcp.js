@@ -65,7 +65,7 @@ exports.connect = function(socketId, peerAddress, peerPort, callback) {
         callback(0);
     };
     var fail = callback && function(error) {
-        callbackWithError(error.message, callback, error.resultCode);
+        callbackWithError(error != null ? error.message : error, callback, error.resultCode);
     };
     exec(win, fail, 'ChromeSocketsTcp', 'connect', [socketId, peerAddress, peerPort]);
 };
